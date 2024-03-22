@@ -1,73 +1,76 @@
 import React from "react";
-import styles from "./Navbar.module.css";
+import style from "./Navbar2.module.css";
 
-function NavBar() {
+export default function Navbar2() {
   return (
     <>
-      <nav className="navbar bg-gradient bg-danger fixed-top">
-        <div className="container-fluid">
-          <div>
+      <nav className="navbar navbar-dark bg-danger bg-gradient fixed-top py-2 px-2">
+        <div className="container-fluid container d-flex justify-content-between">
+          <div className={`${style.nava}`}>
             <button
-              className="navbar-toggler m-1"
+              className="navbar-toggler border-light"
               type="button"
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasDarkNavbar"
               aria-controls="offcanvasDarkNavbar"
-              aria-label="Toggle navigation"
             >
-              <i className="fa-solid fa-bars text-light"></i>
+              <span className="navbar-toggler-icon"></span>
             </button>
             <a
-              className="navbar-brand text-light m-1"
               href="/"
+              className="navbar-brand m-2 text-light"
               style={{ fontFamily: "Lucida Handwriting, cursive" }}
             >
               Luffy TV
             </a>
           </div>
-
-          <div className={`${styles.container2}`}>
-            <div
-              className={`d-flex justify-content-between ${styles.container2}`}
-            >
-              <a
-                class="navbar-brand text-light m-2"
-                href="Movies.html"
-                style={{ fontFamily: "Lucida Handwriting, cursive" }}
-              >
-                Anime
-              </a>
-              <a
-                className="navbar-brand text-light m-2"
-                href="Movies.html"
-                style={{ fontFamily: "Lucida Handwriting, cursive" }}
-              >
-                Music
-              </a>
-              <a
-                className="navbar-brand text-light m-2"
-                href="Movies.html"
-                style={{ fontFamily: "Lucida Handwriting, cursive" }}
-              >
-                K-Drama
-              </a>
-              <a
-                className="navbar-brand text-light m-2"
-                href="Movies.html"
-                style={{ fontFamily: "Lucida Handwriting, cursive" }}
-              >
-                BollyWood
-              </a>
-              <a
-                className="navbar-brand text-light m-2"
-                href="Movies.html"
-                style={{ fontFamily: "Lucida Handwriting, cursive" }}
-              >
-                Hollywood
-              </a>
-            </div>
+          <div className={`${style.navSearch}`}>
+            <form className="d-flex" role="search">
+              <input
+                className="form-control me-2"
+                type="search"
+                placeholder="What would you like to watch today ?"
+                aria-label="Search"
+              />
+              <button className="btn btn-outline-light" type="submit">
+                Search
+              </button>
+            </form>
           </div>
-
+          <button
+            className={`navbar-toggler ${style.navbartoggle}`}
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i className="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <div className={`${style.navb}`}>
+            <a
+              className="navbar-brand"
+              href="#"
+              style={{ fontFamily: "Lucida Handwriting, cursive" }}
+            >
+              Anime
+            </a>
+            <a
+              className="navbar-brand"
+              href="#"
+              style={{ fontFamily: "Lucida Handwriting, cursive" }}
+            >
+              Music
+            </a>
+            <a
+              className="navbar-brand"
+              href="#"
+              style={{ fontFamily: "Lucida Handwriting, cursive" }}
+            >
+              K-Drama
+            </a>
+          </div>
           <div
             className="offcanvas offcanvas-start text-bg-dark"
             tabindex="-1"
@@ -76,7 +79,7 @@ function NavBar() {
           >
             <div className="offcanvas-header">
               <h5
-                className="offcanvas-title text-light"
+                className="offcanvas-title text-ligth"
                 id="offcanvasDarkNavbarLabel"
                 style={{ fontFamily: "Lucida Handwriting, cursive" }}
               >
@@ -282,8 +285,20 @@ function NavBar() {
           </div>
         </div>
       </nav>
+
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-danger bg-gradient p-4 mt-5 d-flex justify-content-center">
+          <input
+            class="form-control me-2 w-50"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light" type="submit">
+            Search
+          </button>
+        </div>
+      </div>
     </>
   );
 }
-
-export default NavBar;

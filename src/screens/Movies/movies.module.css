@@ -1,0 +1,160 @@
+.container3 {
+  margin-top: 100px;
+}
+
+.trendingbox {
+  width: 15rem;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.trendingbox:hover {
+  background-color: #dc3545;
+  cursor: pointer;
+}
+
+.trendbox {
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.trendbox:hover {
+  background-color: #dc3545;
+  cursor: pointer;
+}
+
+
+/* marques listing */
+section {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 67px;
+}
+
+marquee {
+  height: 300px;
+  width: 100%;
+}
+
+img {
+  height: 300px;
+}
+
+/* horizontal card */
+
+#first {
+  /* releated to this property you can search games.js file */
+  /* display: flex; */
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#car {
+  max-width: 50rem;
+  flex-direction: row;
+  border: 0;
+  box-shadow: 0 7px 7px rgba(4, 134, 247, 0.282);
+  margin: 3em auto;
+  display: flex;
+}
+#carring {
+  max-width: 20rem;
+  height: 9rem;
+  flex-direction: row;
+  border: 0;
+  box-shadow: 0 7px 7px rgba(246, 0, 0, 0.18);
+  margin: 3em auto;
+  display: flex;
+}
+#car.dark {
+  color: #fff;
+}
+.card.card.bg-light-subtle .card-title {
+  color: dimgrey;
+}
+
+.carringbody p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#car img {
+  height: 10rem;
+  max-width: 45%;
+  margin: auto;
+  padding: 0.5em;
+  border-radius: 0.7em;
+}
+
+#carring img {
+  height: 7.5rem;
+  max-width: 45%;
+  margin: auto;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+.car-body {
+  display: flex;
+  justify-content: space-between;
+}
+.textsection {
+  max-width: 100%;
+}
+.ctasection {
+  max-width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.ctasection .btn {
+  padding: 0.3em 0.5em;
+  /* color: #696969; */
+}
+.card.bg-light-subtle .ctasection .btn {
+  background-color: #898989;
+  border-color: #898989;
+}
+
+.zoomin {
+  transition: transform 0.3s ease;
+}
+
+.zoomin:hover {
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 475px) {
+  .card {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  section {
+    width: 100%;
+  }
+}
+
+.myvideo {
+  text-decoration: none;
+  color: #fff;
+  background: red;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  z-index: 100;
+  position: absolute;
+  bottom: 20px;
+}
+.myvideo:hover {
+  color: #000;
+}
