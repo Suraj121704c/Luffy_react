@@ -1,0 +1,29 @@
+.buttonWidth {
+  width: 20rem;
+  height: 3rem;
+}
+
+@media (min-width: 220px) and (max-width: 479px) {
+  .buttonWidth {
+    width: auto;
+  }
+
+  .container1 {
+    margin-top: 180px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 899px) {
+  .container1 {
+    margin-top: 180px;
+  }
+  .buttonWidth {
+    width: auto;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .container1 {
+    margin-top: 280px;
+  }
+}
