@@ -20,6 +20,15 @@ function Homepage() {
     <>
       <NavBar />
       <div className={`container m-xxl-5 ${styles.container1}`}>
+        <div className={`${styles.pyramid}`}>
+          <div className={`${styles.glow}`}></div>
+          <div>
+            <span style={{ "--i": 0 }}></span>
+            <span style={{ "--i": 1 }}></span>
+            <span style={{ "--i": 2 }}></span>
+            <span style={{ "--i": 3 }}></span>
+          </div>
+        </div>
         <div className="p-xxl-5">
           <div className="p-xxl-5">
             <div className="p-xxl-5 justify-content-center d-flex flex-column align-items-center">
