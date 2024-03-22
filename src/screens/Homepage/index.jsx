@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../../Components/Navbar/index";
 import TypeWriter from "../../Components/typwriter";
 import styles from "./HomePage.module.css";
+import { useNavigate } from "react-router-dom";
 
 const typewrite = [
   " Hollywood ...",
@@ -13,6 +14,8 @@ const typewrite = [
 ];
 
 function Homepage() {
+  const navigate = useNavigate();
+
   return (
     <>
       <NavBar />
@@ -20,7 +23,7 @@ function Homepage() {
         <div className="p-xxl-5">
           <div className="p-xxl-5">
             <div className="p-xxl-5 justify-content-center d-flex flex-column align-items-center">
-              <h1 className="text-light">Luffy TV</h1>
+              <h1 className="text-light mt-5">Luffy TV</h1>
               <h3 className="text-light mt-5" style={{ fontSize: "55px" }}>
                 The Best
                 <span className="wrap typewrite text-danger">
@@ -40,6 +43,7 @@ function Homepage() {
                     type="submit"
                     className={`btn btn-danger ${styles.buttonWidth}`}
                     style={{ fontFamily: "Lucida Handwriting, cursive" }}
+                    onClick={() => navigate("/movies")}
                   >
                     Go To Homepage
                   </button>
