@@ -103,9 +103,9 @@ export default function MovieDetails() {
                 height="315"
                 src="https://www.youtube.com/embed/Yxe-mIVIwM4?si=PT_T_Q6oZ2M-hYT9"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
 
@@ -115,42 +115,42 @@ export default function MovieDetails() {
               <img
                 src={screenshots}
                 alt=""
-                srcset=""
+                srcSet=""
                 style={{ maxWidth: "20rem", maxHeight: "10rem" }}
                 className="m-1 "
               />
               <img
                 src={screenshots}
                 alt=""
-                srcset=""
+                srcSet=""
                 style={{ maxWidth: "20rem", maxHeight: "10rem" }}
                 className="m-1 "
               />
               <img
                 src={screenshots}
                 alt=""
-                srcset=""
+                srcSet=""
                 style={{ maxWidth: "20rem", maxHeight: "10rem" }}
                 className="m-1 "
               />
               <img
                 src={screenshots}
                 alt=""
-                srcset=""
+                srcSet=""
                 style={{ maxWidth: "20rem", maxHeight: "10rem" }}
                 className="m-1 "
               />
               <img
                 src={screenshots}
                 alt=""
-                srcset=""
+                srcSet=""
                 style={{ maxWidth: "20rem", maxHeight: "10rem" }}
                 className="m-1 "
               />
               <img
                 src={screenshots}
                 alt=""
-                srcset=""
+                srcSet=""
                 style={{ maxWidth: "20rem", maxHeight: "10rem" }}
                 className="m-1 "
               />

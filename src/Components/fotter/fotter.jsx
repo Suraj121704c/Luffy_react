@@ -69,7 +69,6 @@ export default function Fotter() {
                   <li>
                     <a href="#">Latest News</a>
                   </li>
-                  
 
                   <li>
                     <a href="#">Bhakti</a>
@@ -97,6 +96,9 @@ export default function Fotter() {
                   </li>
                   <li>
                     <a href="#">History</a>
+                  </li>
+                  <li>
+                    <a href="#">Login</a>
                   </li>
                 </ul>
               </div>

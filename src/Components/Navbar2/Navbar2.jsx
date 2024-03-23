@@ -73,7 +73,7 @@ export default function Navbar2() {
           </div>
           <div
             className="offcanvas offcanvas-start text-bg-dark"
-            tabindex="-1"
+            tabIndex="-1"
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
@@ -286,15 +286,15 @@ export default function Navbar2() {
         </div>
       </nav>
 
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-danger bg-gradient p-4 mt-5 d-flex justify-content-center">
+      <div className="collapse" id="navbarToggleExternalContent">
+        <div className="bg-danger bg-gradient p-4 mt-5 d-flex justify-content-center">
           <input
-            class="form-control me-2 w-50"
+            className="form-control me-2 w-50"
             type="search"
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-light" type="submit">
+          <button className="btn btn-outline-light" type="submit">
             Search
           </button>
         </div>
