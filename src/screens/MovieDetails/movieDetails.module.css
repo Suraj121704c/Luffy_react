@@ -1,0 +1,18 @@
+.download {
+  cursor: pointer;
+}
+
+.download:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.trendbox {
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.trendbox:hover {
+  background-color: #dc3545;
+  cursor: pointer;
+}

@@ -14,6 +14,8 @@ import {
 } from "../../utils/images";
 import style from "./movies.module.css";
 import Fotter from "../../Components/fotter/fotter";
+import { Link } from "react-router-dom";
+import Courseal from "../../Components/courosel/courseal";
 
 const Movies = () => {
   const [one, setOne] = useState(false);
@@ -30,20 +32,7 @@ const Movies = () => {
         init={particlesInit}
         options={particlesOptions}
       />
-      <div className={`container ${style.container3}`}>
-        <section>
-          <marquee behavior="alternate">
-            <img src={naruto} style={{ marginLeft: "20px" }} />
-            <img src={onepiece} style={{ marginLeft: "20px" }} />
-            <img src={jjk} style={{ marginLeft: "20px" }} />
-            <img src={saitan} style={{ marginLeft: "20px" }} />
-            <img src={fastandfurious} style={{ marginLeft: "20px" }} />
-            <img src={dark} style={{ marginLeft: "20px" }} />
-            <img src={pathan} style={{ marginLeft: "20px" }} />
-          </marquee>
-        </section>
-      </div>
-
+      <Courseal />
       <div className="container">
         <div className="d-flex justify-content-between flex-wrap align-items-center">
           <div className={`p-3 d-flex ${style.trendingbox} m-1`}>
@@ -273,10 +262,10 @@ const Movies = () => {
                   />
                   <div class="card-body">
                     <p class="card-text fw-bold">
-                      <a href="movie_detail.html" class="text-dark">
+                      <Link to={`/movies/1`} class="text-dark">
                         The Mummy Murders (2024) WEB-HD [Hindi (Voice Over)]
                         720p & 480p HD Online Stream | Full Movie
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
@@ -518,10 +507,10 @@ const Movies = () => {
                     <div class="car-body card-body">
                       <div class={`${style.textsection} card-title`}>
                         <p class="text-light">
-                          <a href="movie_detail.html" class="text-light">
+                          <Link to={`/movies/1`} class="text-light">
                             The Mummy Murders (2024) WEB-HD [Hindi (Voice Over)]
                             720p & 480p HD Online Stream | Full Movie
-                          </a>
+                          </Link>
                         </p>
                       </div>
                       <div class={style.ctasection}></div>
@@ -536,10 +525,10 @@ const Movies = () => {
                     <div class="car-body card-body">
                       <div class={`${style.textsection} card-title`}>
                         <p class="text-light">
-                          <a href="movie_detail.html" class="text-light">
+                          <Link to={`/movies/2`} class="text-light">
                             The Mummy Murders (2024) WEB-HD [Hindi (Voice Over)]
                             720p & 480p HD Online Stream | Full Movie
-                          </a>
+                          </Link>
                         </p>
                       </div>
                       <div class={style.ctasection}></div>
