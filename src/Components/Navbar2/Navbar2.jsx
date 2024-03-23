@@ -109,7 +109,7 @@ export default function Navbar2() {
                   <a
                     className="nav-link active text-light"
                     aria-current="page"
-                    href="#"
+                    href="/login"
                     style={{ fontFamily: "Lucida Handwriting, cursive" }}
                   >
                     Login

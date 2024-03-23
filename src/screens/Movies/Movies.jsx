@@ -120,14 +120,14 @@ const Movies = () => {
                   className={`card-img-top ${style.zoomin}`}
                   alt="..."
                 />
-                <div className={`${style.carringbody} card-body`}>
-                  <div className={`${style.textsection} card-title`}>
-                    <p>
+                <div className={`${style.carringbody}`}>
+                  <div className={`${style.textsection}`}>
+                    <h6>
                       <a href="movie_detail.html" className="text-light">
                         The Mummy Murders (2024) WEB-HD [Hindi (Voice Over)]
                         720p & 480p HD Online Stream | Full Movie
                       </a>
-                    </p>
+                    </h6>
                   </div>
                   <div class={`${style.ctasection}`}></div>
                 </div>
@@ -142,14 +142,14 @@ const Movies = () => {
                   className={`card-img-top ${style.zoomin}`}
                   alt="..."
                 />
-                <div className={`${style.carringbody} card-body`}>
-                  <div className={`${style.textsection} card-title`}>
-                    <p>
+                <div className={`${style.carringbody}`}>
+                  <div className={`${style.textsection}`}>
+                    <h6>
                       <a href="movie_detail.html" className="text-light">
                         The Mummy Murders (2024) WEB-HD [Hindi (Voice Over)]
                         720p & 480p HD Online Stream | Full Movie
                       </a>
-                    </p>
+                    </h6>
                   </div>
                   <div class={`${style.ctasection}`}></div>
                 </div>
@@ -164,14 +164,14 @@ const Movies = () => {
                   className={`card-img-top ${style.zoomin}`}
                   alt="..."
                 />
-                <div className={`${style.carringbody} card-body`}>
-                  <div className={`${style.textsection} card-title`}>
-                    <p>
+                <div className={`${style.carringbody}`}>
+                  <div className={`${style.textsection}`}>
+                    <h6>
                       <a href="movie_detail.html" className="text-light">
                         The Mummy Murders (2024) WEB-HD [Hindi (Voice Over)]
                         720p & 480p HD Online Stream | Full Movie
                       </a>
-                    </p>
+                    </h6>
                   </div>
                   <div class={`${style.ctasection}`}></div>
                 </div>
@@ -186,14 +186,14 @@ const Movies = () => {
                   className={`card-img-top ${style.zoomin}`}
                   alt="..."
                 />
-                <div className={`${style.carringbody} card-body`}>
-                  <div className={`${style.textsection} card-title`}>
-                    <p>
+                <div className={`${style.carringbody}`}>
+                  <div className={`${style.textsection}`}>
+                    <h6>
                       <a href="movie_detail.html" className="text-light">
                         The Mummy Murders (2024) WEB-HD [Hindi (Voice Over)]
                         720p & 480p HD Online Stream | Full Movie
                       </a>
-                    </p>
+                    </h6>
                   </div>
                   <div class={`${style.ctasection}`}></div>
                 </div>
@@ -208,14 +208,14 @@ const Movies = () => {
                   className={`card-img-top ${style.zoomin}`}
                   alt="..."
                 />
-                <div className={`${style.carringbody} card-body`}>
-                  <div className={`${style.textsection} card-title`}>
-                    <p>
+                <div className={`${style.carringbody}`}>
+                  <div className={`${style.textsection}`}>
+                    <h6>
                       <a href="movie_detail.html" className="text-light">
                         The Mummy Murders (2024) WEB-HD [Hindi (Voice Over)]
                         720p & 480p HD Online Stream | Full Movie
                       </a>
-                    </p>
+                    </h6>
                   </div>
                   <div class={`${style.ctasection}`}></div>
                 </div>
@@ -230,14 +230,14 @@ const Movies = () => {
                   className={`card-img-top ${style.zoomin}`}
                   alt="..."
                 />
-                <div className={`${style.carringbody} card-body`}>
-                  <div className={`${style.textsection} card-title`}>
-                    <p>
+                <div className={`${style.carringbody}`}>
+                  <div className={`${style.textsection}`}>
+                    <h6>
                       <a href="movie_detail.html" className="text-light">
                         The Mummy Murders (2024) WEB-HD [Hindi (Voice Over)]
                         720p & 480p HD Online Stream | Full Movie
                       </a>
-                    </p>
+                    </h6>
                   </div>
                   <div class={`${style.ctasection}`}></div>
                 </div>

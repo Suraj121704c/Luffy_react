@@ -9,3 +9,5 @@ export const logo = require("../assets/logo.png");
 
 export const movieDetial = require("../assets/movie_detail.jpg");
 export const screenshots = require("../assets/img1.jpg");
+
+export const cloud = require("../assets/cloud_warmcasino.png");

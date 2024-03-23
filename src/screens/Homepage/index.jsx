@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useCallback } from "react";
 import NavBar from "../../Components/Navbar/index";
 import TypeWriter from "../../Components/typwriter";
 import styles from "./HomePage.module.css";
 import { useNavigate } from "react-router-dom";
+import { loadSlim } from "tsparticles-slim";
+import Particles from "react-tsparticles";
+import { particlesOptions } from "../../Components/tsparticles/particlesConfig";
 
 const typewrite = [
   " Hollywood ...",
@@ -15,10 +18,19 @@ const typewrite = [
 
 function Homepage() {
   const navigate = useNavigate();
+  const particlesInit = useCallback(async (engine) => {
+    await loadSlim(engine);
+  }, []);
+
 
   return (
     <>
       <NavBar />
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        options={particlesOptions}
+      />
       <div className={`container m-xxl-5 ${styles.container1}`}>
         <div className={`${styles.pyramid}`}>
           <div className={`${styles.glow}`}></div>

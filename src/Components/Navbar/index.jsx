@@ -8,14 +8,14 @@ function NavBar() {
         <div className="container-fluid">
           <div>
             <button
-              className="navbar-toggler m-1"
+              className="navbar-toggler  border-light m-1"
               type="button"
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasDarkNavbar"
               aria-controls="offcanvasDarkNavbar"
               aria-label="Toggle navigation"
             >
-              <i className="fa-solid fa-bars text-light"></i>
+              <span className="navbar-toggler-icon"></span>
             </button>
             <a
               className="navbar-brand text-light m-1"
@@ -106,7 +106,7 @@ function NavBar() {
                   <a
                     className="nav-link active text-light"
                     aria-current="page"
-                    href="#"
+                    href="/login"
                     style={{ fontFamily: "Lucida Handwriting, cursive" }}
                   >
                     Login
