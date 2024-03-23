@@ -13,6 +13,7 @@ import {
   saitan,
 } from "../../utils/images";
 import style from "./movies.module.css";
+import Fotter from "../../Components/fotter/fotter";
 
 const Movies = () => {
   const [one, setOne] = useState(false);
@@ -29,7 +30,6 @@ const Movies = () => {
         init={particlesInit}
         options={particlesOptions}
       />
-
       <div className={`container ${style.container3}`}>
         <section>
           <marquee behavior="alternate">
@@ -63,7 +63,6 @@ const Movies = () => {
           </div>
         </div>
       </div>
-
       <div className="container mt-3 mb-3">
         <div className="d-flex text-danger" style={{ cursor: "pointer" }}>
           <i
@@ -724,6 +723,8 @@ const Movies = () => {
           </div>
         </div>
       </div>
+
+      <Fotter />
     </>
   );
 };

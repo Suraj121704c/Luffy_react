@@ -63,7 +63,7 @@ img {
 }
 #carring {
   max-width: 20rem;
-  height: 9rem;
+  height: 8rem;
   flex-direction: row;
   border: 0;
   box-shadow: 0 7px 7px rgba(246, 0, 0, 0.18);

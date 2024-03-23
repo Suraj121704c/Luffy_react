@@ -1,0 +1,138 @@
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.container3 {
+  margin-top: 100px;
+}
+
+.footersection {
+  background: #110002;
+  position: relative;
+}
+.cta-text span {
+  color: #fafafa;
+  font-size: 15px;
+}
+.footercontent {
+  position: relative;
+  z-index: 2;
+}
+
+.footerlogo {
+  margin-bottom: 30px;
+}
+.footerlogo img {
+  max-width: 200px;
+}
+.footertext p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 28px;
+}
+.footersocialicon span {
+  color: #fef6f6;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.footersocialicon a {
+  color: #ffecec;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footersocialicon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebookbg {
+  background: #3b5998;
+}
+.twitterbg {
+  background: #55acee;
+}
+.googlebg {
+  background: #3944dd;
+}
+.footerwidgetheading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footerwidgetheading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footerwidget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footerwidget ul li a:hover {
+  color: #ff5e14;
+}
+.footerwidget ul li a {
+  color: #fffbfb;
+  text-transform: capitalize;
+}
+.subscribeform {
+  position: relative;
+  overflow: hidden;
+}
+.subscribeform input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  color: #fff;
+}
+.subscribeform button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+.subscribeform button i {
+  color: #ffffff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #fbf4f4;
+}
+.copyright-text p a {
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a {
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #ffffff;
+}
