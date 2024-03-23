@@ -19,7 +19,7 @@ export default function PageNotFound() {
         init={particlesInit}
         options={particlesOptions}
       />
-      <main className={style.bl_page404}>
+      <main className="mt-5">
         <h1>Error 404. The page does not exist</h1>
         <p>
           Sorry! The page you are looking for can not be found. Perhaps the page
